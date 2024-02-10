@@ -58,7 +58,7 @@ console.log(Quotes.length)
 
 //function to generate random quotes
 BtnEle.addEventListener('click',()=>{
-    let i=Math.floor(Math.random()*Quotes.length)
-    QuoteElem.innerText=Quotes[i].quote
+    let i=Math.floor(Math.random()* Quotes.length)
+    QuoteElem.innerText=Quotes[i].Quote
     AuthorEle.innerText=Quotes[i].author
 })
