@@ -5,38 +5,38 @@ const Quotes=[{
 },
 {
     id:2,
-    quote:'If plan A doesnt work, there are 25 more letters in the alphabet!',
-    author:'CLAIRE COOK'  
+    quote:'For every minute you are angry you lose sixty seconds of happiness',
+    author:'Ralph Waldo Emerson'  
 },
 {
     id:3,
-    quote:'If plan A doesnt work, there are 25 more letters in the alphabet!',
-    author:'CLAIRE COOK'
+    quote:'Count your age by friends, not years. Count your life by smiles, not tears',
+    author:'John Lennon'
 },
 {
     id:4,
-    quote:'If plan A doesnt work, there are 25 more letters in the alphabet!',
-    author:'CLAIRE COOK'
+    quote:'Happiness is a warm puppy.',
+    author:'Charles M. Schulz'
 },
 {
     id:5,
-    quote:'If plan A doesnt work, there are 25 more letters in the alphabet!',
-    author:'CLAIRE COOK'
+    quote:'Success is getting what you want. Happiness is wanting what you get',
+    author:'Dale Carnegie'
 },
 {
     id:6,
-    quote:'If plan A doesnt work, there are 25 more letters in the alphabet!',
-    author:'CLAIRE COOK'
+    quote:'The best way to cheer yourself up is to try to cheer somebody else up',
+    author:'Mark Twain'
 },
 {
     id:7,
-    quote:'If plan A doesnt work, there are 25 more letters in the alphabet!',
-    author:'CLAIRE COOK'
+    quote:'The only joy in the world is to begin',
+    author:'Cesare Pavese'
 },
 {
     id:8,
-    quote:'When we forgive we choose to be empowered, rather than being a victim',
-    autho:'CLAIRE COOK'
+    quote:'Remember this, that very little is needed to make a happy life',
+    autho:'Marcus Aurelius'
 },
 {
     id:9,
@@ -45,8 +45,8 @@ const Quotes=[{
 },
 {
     id:10,
-    quote:'Nothing is impossible. The word itself says ‘I’m possible',
-    author:'CLAIRE COOK' 
+    quote:'I like my peace. I am happy in my space.',
+    author:'Randhir Kapoor' 
 },
 ]
 
@@ -59,6 +59,6 @@ console.log(Quotes.length)
 //function to generate random quotes
 BtnEle.addEventListener('click',()=>{
     let i=Math.floor(Math.random()* Quotes.length)
-    QuoteElem.innerText=Quotes[i].Quote
+    QuoteElem.innerText=Quotes[i].quote
     AuthorEle.innerText=Quotes[i].author
 })
